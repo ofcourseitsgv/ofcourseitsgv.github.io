@@ -6,9 +6,14 @@ header {
  /*navigation menu style*/
  nav {
     text-align: center;
-    word-spacing: 30px;
-    Padding: 10px;
+    word-spacing: 5px;
+    Padding: 15px;
  }
+ body {
+    font-family: sans-serif;
+    background-color: floralwhite;
+ }
+ 
  /*creating the two-column layout*/
  *{
     box-sizing: border-box;
