@@ -1,3 +1,8 @@
+@font-face {
+   font-family: "Inter";
+   src: url("/Fonts/Inter-Regular.ttf");
+}
+
 /*header style*/
 header {
     text-align: center; 
@@ -10,7 +15,7 @@ header {
     Padding: 15px;
  }
  body {
-    font-family: sans-serif;
+    font-family: "Inter";
     background-color: floralwhite;
  }
  .image-wrapper img {
