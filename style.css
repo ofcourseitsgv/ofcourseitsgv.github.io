@@ -1,66 +1,86 @@
 @font-face {
-   font-family: "Inter";
-   src: url("/Fonts/Inter-Regular.ttf");
+    font-family: "Inter";
+    src: url("/Fonts/Inter-Regular.ttf");
 }
 
 /*header style*/
 header {
-    text-align: center; 
+    text-align: center;
     padding: 10px;
- }
- /*navigation menu style*/
- nav {
+}
+/*navigation menu style*/
+nav {
     text-align: center;
     word-spacing: 5px;
-    Padding: 15px;
- }
- body {
+    padding: 15px;
+}
+body {
     font-family: "Inter";
     background-color: floralwhite;
- }
- .image-wrapper img {
+}
+.image-wrapper img {
     max-width: 100%;
     height: auto;
- }
+}
 
+.music-gallery {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: floralwhite;
+    filter: drop-shadow(2px 2px 3px black);
+}
 
- .music-gallery {
-   display: inline-block;
-   border: 2px solid black;
-   margin: 5px;
-   background-color: floralwhite;
-   filter: drop-shadow(2px 2px 3px black);
- }
+.music-gallery .description {
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
 
- .music-gallery .description {
-   padding: 10px;
-   text-align: center;
-   font-size: large;
- }
- 
- /*creating the two-column layout*/
- *{
+.skills {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.skills-box {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 10px;
+    background-color: floralwhite;
+    filter: drop-shadow(2px 2px 3px black);
+    max-block-size: 400px;
+}
+
+.skills-box .title {
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+/*creating the two-column layout*/
+* {
     box-sizing: border-box;
- }
- .row {
+}
+.row {
     display: flex;
     flex-wrap: wrap;
- }
- .post-text-box {
+}
+.post-text-box {
     flex: 70%;
     padding: 20px;
- }
- .profile {
+}
+.profile {
     flex: 70%;
     padding: 20px;
- }
- /*profile image and heading style*/
- .profile img {
+}
+/*profile image and heading style*/
+.profile img {
     width: 120px;
     display: block;
     margin-left: 0;
     margin-right: 0;
- }
- .profile h1 {
+}
+.profile h1 {
     text-align: center;
- }
+}
