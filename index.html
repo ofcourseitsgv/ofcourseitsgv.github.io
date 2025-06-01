@@ -5,9 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Portfolio" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap"
+    rel="stylesheet">
   <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
   <title>Gyle Viloria</title>
@@ -16,13 +18,16 @@
 <body class="light" id="top">
   <header class="header center">
     <h3>
-      <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link">RS.</a>
+      <a href="https://ofcourseitsgv.github.io/" class="link">GV.</a>
     </h3>
 
     <nav class="nav center">
       <ul class="nav__list center">
         <li class="nav__list-item">
-          <a class="link link--nav" href="#projects">Projects</a>
+          <a class="link link--nav" href="#game_projects">Games</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#music_projects">Music</a>
         </li>
         <li class="nav__list-item">
           <a class="link link--nav" href="#skills">Skills</a>
@@ -45,34 +50,110 @@
   <main>
     <!-- About -->
     <div class="about center">
-      <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
-      <h2 class="about__role">A Front end Developer.</h2>
+      <h1><span class="about__name">Gyle Viloria</span></h1>
+      <h2 class="about__role">Game Developer, Composer, Sound Designer</h2>
       <p class="about__desc">
-        Consectetur neque sed quam molestiae consectetur nesciunt sit alias
-        Vitae libero perferendis reprehenderit optio veritatis Accusantium at
-        voluptatum cumque temporibus et Explicabo iste porro quis numquam
-        distinctio Repellendus adipisci nam perferendis amet eaque hic
-        Voluptates
+        Hello there! My name is Gyle Viloria, and I'm an independent game developer and freelance composer from the Bay
+        Area. I graduated from the University of California, Santa Cruz <i>cum laude</i> with a B.S. in Computer
+        Science: Computer Game Design.
       </p>
 
       <div class="about__contact center">
-        <a href="https://example.com">
+        <!-- <a href="https://example.com">
           <span class="btn btn--outline">Resume</span>
-        </a>
+        </a> -->
 
-        <a href="https://github.com/rjshkhr" aria-label="github" class="link link--icon">
+        <a href="https://github.com/ofcourseitsgv" aria-label="github" class="link link--icon">
           <i aria-hidden="true" class="fab fa-github"></i>
         </a>
 
-        <a href="https://linkedin.com/in/rjshkhr" aria-label="linkedin" class="link link--icon">
+        <a href="https://linkedin.com/in/gyle-viloria/" aria-label="linkedin" class="link link--icon">
           <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://gyle.itch.io/" aria-label="itch-io" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-itch-io"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@itsgv4751" aria-label="youtube" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-youtube"></i>
         </a>
       </div>
     </div>
 
-    <!-- Projects -->
-    <section id="projects" class="section projects">
-      <h2 class="section__title">Projects</h2>
+    <!-- Game Projects -->
+    <section id="game_projects" class="section projects">
+      <h2 class="section__title">Games</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">SASS</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Project 2</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">SASS</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Project 3</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">SASS</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music Projects -->
+    <section id="music_projects" class="section projects">
+      <h2 class="section__title">Music</h2>
 
       <div class="projects__grid">
         <div class="project">
@@ -142,27 +223,47 @@
 
     <!-- Skills -->
     <section class="section skills" id="skills">
-      <h2 class="section__title">Skills</h2>
+      <h2 class="section__title">SKILLS</h2>
+
+      <h3 class="section__subtitle">Engines, Frameworks, Tools</h3>
       <ul class="skills__list">
-        <li class="skills__list-item btn btn--plain">HTML</li>
-        <li class="skills__list-item btn btn--plain">CSS</li>
-        <li class="skills__list-item btn btn--plain">SCSS</li>
+        <li class="skills__list-item btn btn--plain">Unity</li>
+        <li class="skills__list-item btn btn--plain">Godot</li>
+        <li class="skills__list-item btn btn--plain">Ren'Py</li>
+        <li class="skills__list-item btn btn--plain">Phaser</li>
+        <li class="skills__list-item btn btn--plain">FMOD</li>
+        <li class="skills__list-item btn btn--plain">pandas</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">Trello</li>
+        <li class="skills__list-item btn btn--plain">Miro</li>
+      </ul>
+
+      <h3 class="section__subtitle">Languages</h3>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">Python</li>
+        <li class="skills__list-item btn btn--plain">C#</li>
+        <li class="skills__list-item btn btn--plain">C++</li>
+        <li class="skills__list-item btn btn--plain">Java</li>
         <li class="skills__list-item btn btn--plain">JavaScript</li>
         <li class="skills__list-item btn btn--plain">TypeScript</li>
-        <li class="skills__list-item btn btn--plain">React</li>
-        <li class="skills__list-item btn btn--plain">Redux</li>
-        <li class="skills__list-item btn btn--plain">Git</li>
-        <li class="skills__list-item btn btn--plain">Material UI</li>
-        <li class="skills__list-item btn btn--plain">Jest</li>
-        <li class="skills__list-item btn btn--plain">Enzyme</li>
-        <li class="skills__list-item btn btn--plain">CI/CD</li>
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+      </ul>
+
+      <h3 class="section__subtitle">Music Programs</h3>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">FL Studio</li>
+        <li class="skills__list-item btn btn--plain">MuseScore Studio</li>
+        <li class="skills__list-item btn btn--plain">REAPER</li>
+        <li class="skills__list-item btn btn--plain">LMMS</li>
+        <li class="skills__list-item btn btn--plain">Minecraft Note Block Studio</li>
       </ul>
     </section>
 
     <!-- Contact -->
     <section class="section contact center" id="contact">
       <h2 class="section__title">Contact</h2>
-      <a href="mailto:rjshekhar.official@gmail.com">
+      <a href="mailto:gyleaviloria@yahoo.com">
         <span class="btn btn--outline">Email me</span>
       </a>
     </section>
@@ -170,7 +271,7 @@
 
   <footer class="footer">
     <a href="https://github.com/rjshkhr/cleanfolio-minimal" class="link footer__link">
-      Created By Raj Shekhar
+      Template Created By Raj Shekhar
     </a>
   </footer>
 
