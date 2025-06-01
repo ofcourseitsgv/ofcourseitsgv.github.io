@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio" />
+  <meta name="description" content="Gyle's Portfolio. Check out the games and music I've created!" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/76aca425f4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
   <title>Gyle Viloria</title>
 </head>
@@ -24,10 +23,10 @@
     <nav class="nav center">
       <ul class="nav__list center">
         <li class="nav__list-item">
-          <a class="link link--nav" href="#game_projects">Games</a>
+          <a class="link link--nav" href="#games">Games</a>
         </li>
         <li class="nav__list-item">
-          <a class="link link--nav" href="#music_projects">Music</a>
+          <a class="link link--nav" href="#music">Music</a>
         </li>
         <li class="nav__list-item">
           <a class="link link--nav" href="#skills">Skills</a>
@@ -63,10 +62,6 @@
           <span class="btn btn--outline">Resume</span>
         </a> -->
 
-        <a href="https://github.com/ofcourseitsgv" aria-label="github" class="link link--icon">
-          <i aria-hidden="true" class="fab fa-github"></i>
-        </a>
-
         <a href="https://linkedin.com/in/gyle-viloria/" aria-label="linkedin" class="link link--icon">
           <i aria-hidden="true" class="fab fa-linkedin"></i>
         </a>
@@ -78,82 +73,47 @@
         <a href="https://www.youtube.com/@itsgv4751" aria-label="youtube" class="link link--icon">
           <i aria-hidden="true" class="fab fa-youtube"></i>
         </a>
+
+        <a href="https://bsky.app/profile/itsgv.bsky.social" aria-label="bluesky" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-bluesky"></i>
+        </a>
+
+        <a href="https://github.com/ofcourseitsgv" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
       </div>
     </div>
 
     <!-- Game Projects -->
-    <section id="game_projects" class="section projects">
+    <section id="games" class="section projects">
       <h2 class="section__title">Games</h2>
 
       <div class="projects__grid">
-        <div class="project" onclick="location.href='https://www.youtube.com/@itsgv4751'" style="cursor: pointer;">
-
-          <h3>Project 1</h3>
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="learn more" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-info"></i>
-          </a>
-        </div>
-
+        <!-- <div class="project" onclick="location.href='blorange.html', location.target='_blank'" style="cursor: pointer;"> -->
         <div class="project">
-          <h3>Project 2</h3>
+
+          <h3>Blorange</h3>
+          <img src="images/blorange-logo.png">
           <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
+            <i>Blorange</i> is a puzzle game made for a class project. We had to create a game using the <b>Phaser
+              framework</b>. I was the composer, sound designer,
+            graphics artist, and lead level designer.
           </p>
           <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Phaser</li>
+            <li class="project__stack-item">LMMS</li>
+            <li class="project__stack-item">JavaScript</li>
           </ul>
 
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <div class="project">
-          <h3>Project 3</h3>
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          <a href="https://gavilori.itch.io/blorange" aria-label="itch-io" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-itch-io"></i>
           </a>
         </div>
       </div>
     </section>
 
     <!-- Music Projects -->
-    <section id="music_projects" class="section projects">
+    <section id="music" class="section projects">
       <h2 class="section__title">Music</h2>
 
       <div class="projects__grid">
@@ -171,52 +131,7 @@
           </ul>
 
           <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <div class="project">
-          <h3>Project 2</h3>
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <div class="project">
-          <h3>Project 3</h3>
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            <i aria-hidden="true" class="fab fa-youtube"></i>
           </a>
         </div>
       </div>

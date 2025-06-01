@@ -26,6 +26,15 @@ body {
   background-color: var(--clr-bg);
 }
 
+img {
+  padding: inherit;
+  margin: auto;
+  width: 600px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .light {
   --clr-bg: #fcfcfccc;
   --clr-bg-alt: #ffffffbe;
@@ -62,6 +71,7 @@ h3,
 h4 {
   line-height: 1.2;
   color: var(--clr-fg-alt);
+  text-align: center;
 }
 
 h1 {
@@ -292,8 +302,9 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+  /* grid-template-columns: repeat(auto-fit, minmax(18em, 1fr)); */
+  grid-template-columns: 50% 50%;
+  gap: 2em;
 }
 
 .project {
@@ -367,6 +378,11 @@ main {
   background-color: transparent;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 @media (max-width: 600px) {
