@@ -48,6 +48,8 @@ audio {
   --clr-fg: #474747;
   --clr-fg-alt: #3f3f3f;
   --clr-primary: #299243;
+  --clr-link: yellow;
+  --clr-link-visited: red;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -57,6 +59,8 @@ audio {
   --clr-fg: #bdddd6;
   --clr-fg-alt: #cdffe0;
   --clr-primary: #90d99a;
+  --clr-link: yellow;
+  --clr-link-visited: red;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -231,14 +235,14 @@ button {
 
 .header {
   height: 8em;
-  max-width: 1100px;
+  max-width: 100%;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
 }
 
 main {
-  max-width: 1100px;
+  max-width: 95%;
   width: 95%;
   margin: 0 auto;
 }
@@ -305,12 +309,22 @@ main {
   margin-right: 1em;
 }
 
+.slideshow {
+  max-width: 800%;
+  /* height: 500px; */
+  margin: 1em;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+
 .projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 200%;
+  /* margin: 0 auto; */
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(18em, 1fr)); */
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  /* grid-template-columns: 50% 50%; */
   gap: 2em;
 }
 
